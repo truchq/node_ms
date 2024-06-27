@@ -1,0 +1,26 @@
+{
+  "name": "node_ms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "start2": "nodemon --es-module-specifier-resolution=node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cosmostation/cosmosjs": "^0.11.2",
+    "@polkadot/api": "^10.13.1",
+    "@therootnetwork/api": "^1.0.9",
+    "axios": "^1.7.2",
+    "bignumber.js": "^9.1.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@therootnetwork/api-types": "^1.0.3",
+    "nodemon": "^3.1.4"
+  }
+}
